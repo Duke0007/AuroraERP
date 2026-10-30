@@ -1,0 +1,8 @@
+# Aurora ERP - GitHub Linguist
+# Forca a deteccao de C na barra de linguagens do repositorio.
+*.c  linguist-detectable=true linguist-language=C
+*.h  linguist-detectable=true linguist-language=C
+c/**/*.c linguist-detectable=true linguist-language=C
+c/**/*.h linguist-detectable=true linguist-language=C
+Makefile linguist-detectable=false
+*.dat binary
